@@ -31,5 +31,5 @@ class Auto12365Pipeline(object):
             i = item["典型问题"][seq]
             item["典型问题"][seq] = str(i).replace(i[0], dict_unit[i[0]]).replace(i[1:], dict_issue[i[1:]])
 
-        print(item["典型问题"])
+        # print(item["典型问题"])
         return item
